@@ -172,27 +172,27 @@ Once the zones are identified, the pricing service collects contextual signals a
 
 
 
-rainfall probability and historical flood patterns
+•rainfall probability and historical flood patterns
 
 
 
-traffic slowdown frequency
+•traffic slowdown frequency
 
 
 
-pollution or AQI trends
+•pollution or AQI trends
 
 
 
-historical disruption events
+•historical disruption events
 
 
 
-restaurant cluster density
+•restaurant cluster density
 
 
 
-historical payout frequency in the zone
+•historical payout frequency in the zone
 
 
 
@@ -208,15 +208,15 @@ The pricing layer then calculates three outputs:
 
 
 
-recommended premium value
+•recommended premium value
 
 
 
-weekly payout cap
+•weekly payout cap
 
 
 
-available plan tiers
+•available plan tiers
 
 
 
@@ -248,27 +248,27 @@ The workflow begins when the worker installs the application and completes onboa
 
 
 
-phone number verification via OTP
+•phone number verification via OTP
 
 
 
-worker name
+•worker name
 
 
 
-city of operation
+•city of operation
 
 
 
-delivery category (food delivery)
+•delivery category (food delivery)
 
 
 
-preferred working zones
+•preferred working zones
 
 
 
-payout account information such as UPI ID
+•payout account information such as UPI ID
 
 
 
@@ -304,15 +304,15 @@ The backend maintains a database of geographic clusters representing key deliver
 
 
 
-restaurant hubs
+•restaurant hubs
 
 
 
-residential delivery neighborhoods
+•residential delivery neighborhoods
 
 
 
-commercial districts
+•commercial districts
 
 
 
@@ -468,15 +468,15 @@ The mobile application performs basic spoof detection checks such as:
 
 
 
-detecting mock location providers
+•detecting mock location providers
 
 
 
-detecting emulator environments or developer mode
+•detecting emulator environments or developer mode
 
 
 
-checking device integrity flags
+•checking device integrity flags
 
 
 
@@ -484,27 +484,29 @@ These signals indicate whether the device environment may be manipulating locati
 
 
 
+
+
 Layer 2 — GNSS Satellite Validation
 
 
 
-The second layer verifies the underlying satellite signals used to compute the GPS position.
+•The second layer verifies the underlying satellite signals used to compute the GPS position.
 
 
 
-Instead of trusting only latitude and longitude, the app inspects GNSS telemetry including:
+•Instead of trusting only latitude and longitude, the app inspects GNSS telemetry including:
 
 
 
-satellite count
+•satellite count
 
 
 
-signal strength distribution
+•signal strength distribution
 
 
 
-constellation diversity
+•constellation diversity
 
 
 
@@ -512,23 +514,25 @@ Real GPS fixes typically include signals from multiple satellite constellations 
 
 
 
-GPS
+•GPS
 
 
 
-GLONASS
+•GLONASS
 
 
 
-Galileo
+•Galileo
 
 
 
-BeiDou
+•BeiDou
 
 
 
 Most simple spoofing tools alter coordinates but do not simulate realistic satellite measurements. If GNSS telemetry appears unrealistic or missing, the system reduces the location trust score.
+
+
 
 
 
@@ -544,15 +548,15 @@ These include:
 
 
 
-accelerometer readings
+•accelerometer readings
 
 
 
-gyroscope rotation
+•gyroscope rotation
 
 
 
-Wi-Fi network environment changes
+•Wi-Fi network environment changes
 
 
 
@@ -664,7 +668,4 @@ The final phase introduces advanced features such as geo-tagged disruption repor
 
 By combining parametric insurance principles, real-time telemetry analysis, and machine learning decision models, the platform creates a scalable solution for protecting gig workers from income disruptions in urban delivery ecosystems.
 
-=======
-# gig-worker-income-protection-Devtrails-2026-
-This is the repo for the devtrails hackathon project
->>>>>>> de26569f35bc16537bc053c5814695388bfe62c6
+
