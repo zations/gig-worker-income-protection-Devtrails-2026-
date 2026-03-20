@@ -664,3 +664,7 @@ The final phase introduces advanced features such as geo-tagged disruption repor
 
 By combining parametric insurance principles, real-time telemetry analysis, and machine learning decision models, the platform creates a scalable solution for protecting gig workers from income disruptions in urban delivery ecosystems.
 
+=======
+# gig-worker-income-protection-Devtrails-2026-
+This is the repo for the devtrails hackathon project
+>>>>>>> de26569f35bc16537bc053c5814695388bfe62c6
