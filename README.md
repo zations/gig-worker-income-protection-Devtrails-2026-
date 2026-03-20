@@ -490,11 +490,11 @@ Layer 2 — GNSS Satellite Validation
 
 
 
-•The second layer verifies the underlying satellite signals used to compute the GPS position.
+The second layer verifies the underlying satellite signals used to compute the GPS position.
 
 
 
-•Instead of trusting only latitude and longitude, the app inspects GNSS telemetry including:
+Instead of trusting only latitude and longitude, the app inspects GNSS telemetry including:
 
 
 
